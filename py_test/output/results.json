@@ -1,0 +1,10 @@
+[
+  {
+    "asset": "Microsoft",
+    "cve_id": "CVE-2025-53771",
+    "cvss_version": "V3.1",
+    "base_score": 7.1,
+    "base_severity": "HIGH",
+    "vector": "AV: Network, AC: Low, PR: Low, UI: None, S: Unchanged, C: High, I: Low, A: None"
+  }
+]

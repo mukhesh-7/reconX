@@ -1,0 +1,32 @@
+nvd.py --> python nvd.py
+nvd_test.py --> python nvd_test.py --api_key actual-api-key -a org-name -rpa 1 -v 
+            --> python nvd_test.py --api_key actual-api-key --asset "org-name" --resultsPerAsset 1 --verbose
+            -->  python nvd_test.py -k actual_api_key -a org-name -rpa 1 -v --csv_file "file\path\results.csv"
+nvd_chatgpt --> python nvd_chatgpt.py 
+setting api key to env variable --> setx var_name "actual-api-key" (SETX /?)
+
+For nvd_test.py:
+|----------------------------------------------------------------|
+|Flag	            |   Description (Guessing based on naming)   |
+|------------------ |--------------------------------------------|
+| -a ASSET	        |   Search for a single asset name           | 
+| -A ASSET_FILE	    |   Path to a file with multiple asset names |
+| -o OUTPUT_FILE   	|   Output results to a file                 |
+| -s	            |   Possibly save output or silent mode      |
+| -rpa {1..10}	    |   Results per asset/page?                  |
+| -sev	            |   Filter by severity                       |
+| -vec	            |   Filter by vector type                    |
+| -v	            |   Verbose mode                             |
+| --api_key         |   API key for NVD API                      |
+| --asset           |   Asset name                               |
+| --resultsPerAsset |   Results per asset                        |
+| --verbose         |   Verbose mode                             |
+| --severity        |   Severity filter                          |
+| --vectorType      |   Vector type filter                       |
+| --silent          |   Silent mode                              |
+| --save            |   Save output to file                      |
+| --asset_file      |   Path to file with multiple asset names   |
+| --output_file     |   Path to output file                      |
+| --csv_file        |   Path to CSV file                         |
+| --json_file       |   Path to json file                        |
+|----------------------------------------------------------------|

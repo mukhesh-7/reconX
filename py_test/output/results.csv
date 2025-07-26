@@ -1,0 +1,2 @@
+asset,cve_id,cvss_version,base_score,base_severity,vector
+Google,CVE-2025-7697,V3.1,9.8,CRITICAL,"AV: Network, AC: Low, PR: None, UI: None, S: Unchanged, C: High, I: High, A: High"
